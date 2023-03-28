@@ -281,7 +281,7 @@ hr {
 @media screen and (min-width:550px) {
     .musicaplayer {
         bottom: 0%;
-        width: 515px;
+        width: 550px;
     }
 
     .voltarmsc {
@@ -292,7 +292,7 @@ hr {
 @media screen and (min-width:650px) {
     .musicaplayer {
         bottom: 0%;
-        width: 615px;
+        width: 650px;
     }
 
     .voltarmsc {
