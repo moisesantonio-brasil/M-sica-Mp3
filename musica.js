@@ -12,7 +12,7 @@ let voltarmsc = document.querySelector(".voltarmsc")
 let seguirmsc = document.querySelector(".seguirmsc")
 
 let memoriamsc = [
-    "/musicas instrumentos/OCEANS (OCEANOS) no VIOLÃO Fingerstyle(MP3_160K).mp3",
+    "musicas instrumentos/OCEANS (OCEANOS) no VIOLÃO Fingerstyle(MP3_160K).mp3",
     "musicas instrumentos/Europe - The Final Countdown(MP3_160K).mp3",
     "musicas instrumentos/Contra baixo solo slap Tiago Marques(MP3_160K).mp3",
     "musicas instrumentos/Éder Medeiros - Solo de Bateria (Independência)(MP3_160K).mp3",
@@ -263,4 +263,6 @@ seguirmsc.addEventListener("click",()=>{
         posiçao = 0;
     }
     })
+    
+
     
