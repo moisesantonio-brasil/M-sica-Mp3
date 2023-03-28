@@ -230,7 +230,14 @@ hr {
 @media screen and (min-width:350px) {
     .musicaplayer {
         bottom: 0%;
-        width: 360px;
+        width: 350px;
+    }
+
+}
+@media screen and (min-width:380px) {
+    .musicaplayer {
+        bottom: 0%;
+        width: 380px;
     }
 
 }
