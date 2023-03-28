@@ -222,7 +222,7 @@ hr {
 @media screen and (min-width:330px) {
     .musicaplayer {
         bottom: 0%;
-        width: 335px;
+        width: 330px;
     }
 
 }
@@ -230,21 +230,21 @@ hr {
 @media screen and (min-width:340px) {
     .musicaplayer {
         bottom: 0%;
-        width: 345px;
+        width: 340px;
     }
 
 }
 @media screen and (min-width:350px) {
     .musicaplayer {
         bottom: 0%;
-        width: 355px;
+        width: 350px;
     }
 
 }
 @media screen and (min-width:380px) {
     .musicaplayer {
         bottom: 0%;
-        width: 385px;
+        width: 380px;
     }
 
 }
