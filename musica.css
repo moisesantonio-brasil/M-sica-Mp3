@@ -223,21 +223,21 @@ hr {
 @media screen and (min-width:340px) {
     .musicaplayer {
         bottom: 0%;
-        width: 340px;
+        width: 345px;
     }
 
 }
 @media screen and (min-width:350px) {
     .musicaplayer {
         bottom: 0%;
-        width: 350px;
+        width: 355px;
     }
 
 }
 @media screen and (min-width:380px) {
     .musicaplayer {
         bottom: 0%;
-        width: 380px;
+        width: 385px;
     }
 
 }
