@@ -178,7 +178,20 @@ hr {
     background-color: silver;
 }
 
+@media screen and (min-width:300px) {
+  .logo2{
+    width: 80px;
+    height: 80px;
+  }
+.musicaplayer{
+    width: 300px;
+}
+    .playerbase{
+        width: 430px;
+        margin-right: 0px;
+    }
 
+}
 
 @media screen and (min-width:800px) {
   .logo2{
