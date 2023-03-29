@@ -188,8 +188,33 @@ hr {
   .musicaplayer{
       width: 380px;
   }
+  .imgdamusica{
+    display: none;
+  }
       .playerbase{
-          width: 400px;
+        margin-left: 0px;
+          width: 140px;
+          margin-right: 0px;
+      }
+      .partedomeio{
+        height: auto;
+      }
+ 
+  }
+  @media screen and (min-width:600px) {
+    .logo2{
+      width: 80px;
+      height: 80px;
+    }
+  .musicaplayer{
+      width: 590px;
+  }
+  .imgdamusica{
+    display: flex;
+  }
+      .playerbase{
+        margin-left: 10px;
+          width: 220px;
           margin-right: 0px;
       }
  
@@ -283,6 +308,24 @@ hr {
       }
   
   }
+  @media screen and (min-width:1520px) {
+    .logo2{
+      width: 70px;
+      height: 70px;
+    }
+  .musicaplayer{
+      width: 1520px;
+  }
+      .playerbase{
+          width: 930px;
+          margin-right: 0px;
+          height: 45px;
+      }
+      .partedomeio{
+        height: auto;
+      }
+  
+  }
   @media screen and (min-width:1600px) {
     .logo2{
       width: 70px;
@@ -306,5 +349,6 @@ hr {
   }
   
   
+
 
 
