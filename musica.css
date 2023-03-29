@@ -388,6 +388,20 @@ hr {
       }
   
   }
+ @media screen and (min-width:1300px) {
+    .logo2{
+      width: 80px;
+      height: 80px;
+    }
+  .musicaplayer{
+      width: 1280px;
+  }
+      .playerbase{
+          width: 870px;
+          margin-right: 0px;
+      }
+  
+  }
   @media screen and (min-width:1360px) {
     .logo2{
       width: 70px;
