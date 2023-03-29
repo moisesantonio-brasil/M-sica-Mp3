@@ -88,8 +88,8 @@ body {
 }
 
 .musicaplayer {
-    width: 1600px;
-    height: auto;
+    width: auto;
+    height: 400px;
     background-color: gray;
     display: flex;
     flex-wrap: wrap;
@@ -178,229 +178,116 @@ hr {
     background-color: silver;
 }
 
-@media screen and (min-width:249px) {
-    body {
-        display: none;
-    }
+
+
+@media screen and (min-width:800px) {
+  .logo2{
+    width: 80px;
+    height: 80px;
+  }
+.musicaplayer{
+    width: 800px;
 }
-
-@media screen and (min-width:300px) {
-    body {
-        display: block;
-    }
-
-    .basemusica {
-        margin: 25px;
-    }
-
-    .musicaplayer {
-        bottom: 0%;
-        width: 300px;
-    }
-
-    .logo2 {
-        display: none;
-    }
-
-    hr {
-        display: none;
-    }
-
-    .imgdamusica {
-        display: none;
-    }
-
-    .voltarmsc,
-    .seguirmsc {
-        margin: 10px;
-    }
-
-    .voltarmsc {
-        margin-left: 90px;
-    }
-}
-@media screen and (min-width:330px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 330px;
+    .playerbase{
+        width: 430px;
+        margin-right: 0px;
     }
 
 }
-
-@media screen and (min-width:340px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 340px;
+@media screen and (min-width:1024px) {
+    .logo2{
+      width: 80px;
+      height: 80px;
     }
+  .musicaplayer{
+      width: 1024px;
+  }
+      .playerbase{
+          width: 630px;
+          margin-right: 0px;
+      }
+  
+  }
 
-}
-@media screen and (min-width:350px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 350px;
+  @media screen and (min-width:1152px) {
+    .logo2{
+      width: 80px;
+      height: 80px;
     }
-
-}
-@media screen and (min-width:380px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 380px;
+  .musicaplayer{
+      width: 1152px;
+  }
+      .playerbase{
+          width: 730px;
+          margin-right: 0px;
+      }
+  
+  }
+  @media screen and (min-width:1280px) {
+    .logo2{
+      width: 80px;
+      height: 80px;
     }
-
-}
-
-@media screen and (min-width:400px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 400px;
+  .musicaplayer{
+      width: 1280px;
+  }
+      .playerbase{
+          width: 830px;
+          margin-right: 0px;
+      }
+  
+  }
+  @media screen and (min-width:1360px) {
+    .logo2{
+      width: 70px;
+      height: 70px;
     }
-
-    .imgdamusica {
-        display: flex;
-        margin: auto;
-        margin-top: 5px;
-        text-align: center;
+  .musicaplayer{
+      width: 1360px;
+  }
+      .playerbase{
+          width: 930px;
+          margin-right: 0px;
+          height: 45px;
+      }
+  
+  }
+  @media screen and (min-width:1366px) {
+    .logo2{
+      width: 70px;
+      height: 70px;
     }
-
-    .voltarmsc {
-        margin-left: 130px;
+  .musicaplayer{
+      width: 1366px;
+  }
+      .playerbase{
+          width: 930px;
+          margin-right: 0px;
+          height: 45px;
+      }
+  
+  }
+  @media screen and (min-width:1600px) {
+    .logo2{
+      width: 70px;
+      height: 70px;
     }
-}
+  .musicaplayer{
+      width: 1600px;
+  }
+      .playerbase{
+          width: 1030px;
+          margin-right: 0px;
+          height: 45px;
+      }
+      .imgdamusica{
+        width: 140px;
+        height: 50px;
+        margin-top: 8px;
+        font-size: 15px;
+      }
+  
+  }
+  
 
-@media screen and (min-width:450px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 450px;
-    }
-}
 
-@media screen and (min-width:500px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 500px;
-    }
-
-    .voltarmsc {
-        margin-left: 170px;
-    }
-}
-
-@media screen and (min-width:550px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 550px;
-    }
-
-    .voltarmsc {
-        margin-left: 200px;
-    }
-}
-
-@media screen and (min-width:650px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 650px;
-    }
-
-    .voltarmsc {
-        margin-left: 250px;
-    }
-}
-
-@media screen and (min-width:700px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: auto;
-    }
-
-    .voltarmsc {
-        margin-left: 450px;
-    }
-
-    .basemusica {
-        margin: 12px;
-    }
-}
-
-@media screen and (min-width:1070px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: auto;
-    }
-
-    .voltarmsc {
-        margin-left: 450px;
-    }
-
-    .basemusica {
-        margin: 20px;
-    }
-}
-
-@media screen and (min-width:1250px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: auto;
-    }
-
-    .voltarmsc {
-        width: 50px;
-        height: 30px;
-        margin-top: 20px;
-        margin-left: 510px;
-    }
-
-    .seguirmsc {
-        margin-top: 20px;
-    }
-
-    .basemusica {
-        margin: 20px;
-    }
-
-    .logo2 {
-        display: block;
-    }
-
-    .hr {
-        display: block;
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-}
-
-@media screen and (min-width:1600px) {
-    .musicaplayer {
-        bottom: 0%;
-        width: 1600px;
-    }
-
-    .voltarmsc {
-        width: 50px;
-        height: 30px;
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-
-    .seguirmsc {
-        margin-top: 20px;
-    }
-
-    .basemusica {
-        margin: 20px;
-    }
-
-    .logo2 {
-        margin-right: 20px;
-    }
-
-    .hr {
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-
-    .imgdamusica {
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-}
