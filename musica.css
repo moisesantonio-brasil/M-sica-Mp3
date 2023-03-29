@@ -106,7 +106,7 @@ body {
 .playerbase {
     width: 1000px;
     height: 55px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 8px;
 }
 
@@ -236,7 +236,7 @@ hr {
   }
       .playerbase{
         margin-left: 0px;
-          width: 160px;
+          width: 170px;
           margin-right: 0px;
           background-color: yellow;
       }
