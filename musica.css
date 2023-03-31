@@ -40,7 +40,6 @@ body {
     background-color: rgb(101, 115, 129);
     display: flex;
     flex-wrap: wrap;
-    overflow-y: auto;
 }
 
 .basemusica {
@@ -106,7 +105,7 @@ body {
 .playerbase {
     width: 1000px;
     height: 55px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 8px;
 }
 
@@ -180,26 +179,36 @@ hr {
 }
 
 
-@media screen and (min-width:390px) {
+@media screen and (min-width:300px) {
     .logo2{
-      width: 80px;
-      height: 80px;
+     display: none;
     }
   .musicaplayer{
-      width: 370px;
+      width: 370px; 
+      position: fixed;
+          bottom: 0px;
   }
   .imgdamusica{
     display: none;
   }
       .playerbase{
-        margin-left: 0px;
-          width: 130px;
+        margin-left: 5px;
+          width: 180px;
           margin-right: 0px;
+         
       }
       .partedomeio{
         height: auto;
       }
- 
+      hr{
+        display: none;
+      }
+      .voltarmsc,.seguirmsc{
+        width: 30px;
+      }
+ .partedomeio{
+  overflow: hidden;
+ }
   }
   
 @media screen and (min-width:410px) {
@@ -208,19 +217,25 @@ hr {
       height: 80px;
     }
   .musicaplayer{
-      width: 430px;
+      width: 390px;
   }
   .imgdamusica{
     display: none;
   }
       .playerbase{
         margin-left: 0px;
-          width: 140px;
+          width: 190px;
           margin-right: 0px;
-        
+       
       }
       .partedomeio{
         height: auto;
+      }
+      hr{
+        display: flex;
+      }
+      .logo2{
+        display: flex;
       }
  
   }
@@ -230,7 +245,7 @@ hr {
       height: 80px;
     }
   .musicaplayer{
-      width: 450px;
+      width: 410px;
   }
   .imgdamusica{
     display: none;
@@ -239,7 +254,7 @@ hr {
         margin-left: 0px;
           width: 170px;
           margin-right: 0px;
-   
+    
       }
       .partedomeio{
         height: auto;
@@ -252,7 +267,7 @@ hr {
       height: 80px;
     }
   .musicaplayer{
-      width: 470px;
+      width: 420px;
   }
   .imgdamusica{
     display: none;
@@ -261,7 +276,7 @@ hr {
         margin-left: 0px;
           width: 160px;
           margin-right: 0px;
-         
+      
       }
       .partedomeio{
         height: auto;
@@ -283,7 +298,7 @@ hr {
         margin-left: 0px;
           width: 190px;
           margin-right: 0px;
-         
+       
       }
       .partedomeio{
         height: auto;
@@ -388,7 +403,7 @@ hr {
       }
   
   }
- @media screen and (min-width:1300px) {
+  @media screen and (min-width:1300px) {
     .logo2{
       width: 80px;
       height: 80px;
