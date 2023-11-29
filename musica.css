@@ -18,7 +18,7 @@ body {
 .partedecima {
     width: auto;
     height: 100px;
-    background-color: #0B1022;
+    background-color: #1E1E4A;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -64,7 +64,7 @@ body {
 }
 
 .titulomusica {
-   font-size:13px;
+   font-size:14px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
