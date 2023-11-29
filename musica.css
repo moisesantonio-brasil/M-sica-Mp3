@@ -18,7 +18,7 @@ body {
 .partedecima {
     width: auto;
     height: 100px;
-    background-color: lightslategray;
+    background-color: #0B1022;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -37,7 +37,7 @@ body {
     width: auto;
     height: auto;
     padding: 10px;
-    background-color: rgb(101, 115, 129);
+    background-color: #1A2349;
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .musicaplayer {
-  background-color: lightslategray;
+  background-color: #272A39;
     display: flex;
     flex-wrap: wrap;
     position:sticky;
